@@ -1,0 +1,57 @@
+#header{
+    background: rgba(41,92,185,0.8);
+    .top{
+        p{
+            color: #fff;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    }
+    .bottom{
+        li{
+            padding: 0 10px;
+            color: #fff;
+            transition: .3s;
+            margin-top: 10px;
+            cursor: pointer;
+            &:hover{
+                color: red;
+
+            }
+        }
+    }
+}
+// header end
+// Second start
+#second{
+    height: 100vh;
+    background: url(../photo/paper_text.png);
+    .second-box{
+        text-align: center;
+        p{
+            color: grey;
+        }
+        h1{
+            color: rgba(21, 63, 143, 0.8);
+            margin: 40px 0;
+        }
+        h5{
+            color: rgba(21, 63, 143, 0.8);
+            margin-bottom: 30px;
+        }
+        .span2{
+            margin-left: 20px;
+        }
+        #button{
+            padding: 2px 15px;
+            border-radius: 5px;
+            border: none;
+            background: rgba(41,92,185,0.8);
+            color: #fff;
+            transition: .3s;
+            &:hover{
+                background: rgba(21, 63, 143, 0.8);
+            }
+        }
+    }
+}

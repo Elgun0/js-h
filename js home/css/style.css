@@ -1,0 +1,64 @@
+#header {
+  background: rgba(41, 92, 185, 0.8);
+}
+
+#header .top p {
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#header .bottom li {
+  padding: 0 10px;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#header .bottom li:hover {
+  color: red;
+}
+
+#second {
+  height: 100vh;
+  background: url(../photo/paper_text.png);
+}
+
+#second .second-box {
+  text-align: center;
+}
+
+#second .second-box p {
+  color: grey;
+}
+
+#second .second-box h1 {
+  color: rgba(21, 63, 143, 0.8);
+  margin: 40px 0;
+}
+
+#second .second-box h5 {
+  color: rgba(21, 63, 143, 0.8);
+  margin-bottom: 30px;
+}
+
+#second .second-box .span2 {
+  margin-left: 20px;
+}
+
+#second .second-box #button {
+  padding: 2px 15px;
+  border-radius: 5px;
+  border: none;
+  background: rgba(41, 92, 185, 0.8);
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#second .second-box #button:hover {
+  background: rgba(21, 63, 143, 0.8);
+}
+/*# sourceMappingURL=style.css.map */
